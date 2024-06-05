@@ -1,6 +1,7 @@
-p { color: red;}
-
 /* variables */
+:root {
+    --primary-color: #0891b2; 
+}
 
 /* reset */
 * {
