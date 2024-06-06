@@ -52,6 +52,7 @@ p {
     width: 100%; /* temporário */
 }
 
+
 .about-picture > img{
     padding: 3rem;
     width: 100%;
@@ -73,6 +74,18 @@ p {
     box-shadow: 1px 1px 5px 0px #262228
 
 }
+
+.about-icons > img{
+    width: 3rem;
+}
+
+.about-icons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
 
 
 /* tablet styles */
