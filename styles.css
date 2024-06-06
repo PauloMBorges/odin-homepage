@@ -48,6 +48,16 @@ p {
 }
 
 /* mobile styles */
+.project > img {
+    width: 100%; /* temporário */
+}
+
+.about-picture > img{
+    padding: 3rem;
+    width: 100%;
+    filter: drop-shadow(rgba(0, 0, 0, 0.61) 0.5rem 0.5rem 10px);
+}
+
 
 
 /* tablet styles */
