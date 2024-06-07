@@ -1,6 +1,7 @@
 /* -------------------------------------- variables -------------------------------------- */
 :root {
     --primary-color: #0891b2; 
+    --shadow-color: #262228;
 }
 
 /* reset */
@@ -18,6 +19,7 @@ html, body {
 h1, h2 {
     font-family: 'PlayfairDisplay Regular';
     font-size: 3rem;
+    font-weight: 100;
 }
 
 p {
@@ -69,7 +71,7 @@ p {
     background-color: var(--primary-color);
     transform: skewY(330deg) translateY(-50%);
     transform-origin: 0;
-    box-shadow: 1px 1px 5px 0px #262228
+    box-shadow: 1px 1px 5px 0px var(--shadow-color)
 
 }
 
@@ -136,7 +138,7 @@ p {
 }
 
 .project { 
-    box-shadow: 1px 1px 5px 0px #262228;
+    box-shadow: 1px 1px 5px 0px var(--shadow-color);
 }
 
 .projects-container {
@@ -184,7 +186,7 @@ p {
     width: 3rem;
 }
 
-.test {
+.footer-picture {
     width: 100%;
 }
 
@@ -196,6 +198,84 @@ p {
 
 /* tablet styles */
 @media screen and (min-width: 768px) {
+
+    /* about ne */
+    .about-icons {
+        display: none;
+    }
+    
+    .about-picture > img{
+        width: 300px;
+        float: left;
+        padding: 0;
+        margin-left: 2rem;
+        margin-right: 1.5rem;
+        filter: drop-shadow(rgba(0, 0, 0, 0.61) 0.1rem 0.1rem 5px);
+    }
+
+    .about-content {
+        margin: 3rem 3rem;
+    }
+
+    .about-text {
+        background-color: white;
+        box-shadow: 1px 3px 5px 0px #26222860;
+        margin-top: 3rem;    }
+
+    .about-text p {
+        font-size: 1.5rem;
+    }
+
+    .about-text h1 {
+        padding-top: 5rem;
+    }
+
+    .about-picture::after {
+        transform: skewY(345deg) translateY(-40%);
+    }
+    
+    /* my work */
+    .projects-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* contact me */
+    .footer {
+        flex-direction: row;
+        padding: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .footer-text h1 {
+        text-align: left;
+    }
+
+    .footer-icons {
+        justify-content: flex-start;
+    }
+
+    .footer-icons > img {
+        width: 2rem;
+    }
+
+    .footer-picture {
+        width: 115%;
+    }
+
+    .contact-icon {
+        display: block;
+        width: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .phone, .email {
+        display: flex;
+        align-items: center;
+    }
+
+    .phone {
+        margin-bottom: 0.8rem;
+    }
 
 }
 
