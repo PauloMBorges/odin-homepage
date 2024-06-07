@@ -184,7 +184,7 @@ p {
     justify-content: center;
 }
 
-.footer-icons > img {
+.footer-icon {
     width: 3rem;
 }
 
@@ -257,8 +257,9 @@ p {
         justify-content: flex-start;
     }
 
-    .footer-icons > img {
+    .footer-icon {
         width: 2rem;
+        cursor: pointer;
     }
 
     .footer-picture {
