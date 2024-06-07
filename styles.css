@@ -77,6 +77,7 @@ p {
 
 .about-icons > img{
     width: 3rem;
+    cursor: pointer;
 }
 
 .about-icons {
@@ -113,6 +114,7 @@ p {
 .project-icons > img{
     width: 1.5rem;
     margin-right: 0.5rem;
+    cursor: pointer
 }
 
 .project-info h2 {
@@ -310,6 +312,7 @@ p {
         justify-content: flex-end;
         gap: 1rem;
         padding-bottom: 2rem;
+        padding-top: 4rem;
     }
 
     .about-icons img {
@@ -321,7 +324,7 @@ p {
     }
 
     .about-picture::after {
-        transform: skewY(345deg) translateY(-40%);
+        transform: skewY(348deg) translateY(-45%);
     }
 
     /* my work */
