@@ -244,6 +244,7 @@ p {
         flex-direction: row;
         padding: 3rem;
         padding-bottom: 4rem;
+        margin-top: 10rem;
     }
 
     .footer-text h1 {
@@ -281,5 +282,75 @@ p {
 
 /* desktop styles */
 @media screen and (min-width: 1024px) {
+
+    .about-container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .about-content {
+        margin-bottom: 0;
+    }
+    /* about me */
+    .about-picture > img{
+        width: 400px;
+    }
+
+    .about-text h1 {
+        padding-top: 1.5rem;
+        text-align: left;
+    }
+
+    .about-text p {
+        font-size: 1.375rem;
+    }
+
+    .about-icons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .about-icons img {
+        width: 2rem;
+    }
+
+    .about-icons:last-child {
+        margin-right: 1rem;
+    }
+
+    .about-picture::after {
+        transform: skewY(345deg) translateY(-40%);
+    }
+
+    /* my work */
+    .projects-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+    }
+
+    #portfolio h1 {
+        text-align: left;
+        margin-bottom: 0.275rem;
+        
+    }
+
+    .projects-container {
+        margin: 0;
+    }
+
+    #portfolio {
+        padding: 3rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    /* footer */
+    .footer-picture {
+        width: 100%;
+        margin-left: 2rem;
+    }
+    
 
 }
