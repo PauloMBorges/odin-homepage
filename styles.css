@@ -144,6 +144,56 @@ p {
     gap: 3rem;
     grid-template-columns: 1fr;
 }
+
+/* contact me */
+.footer-container {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.white-text {
+    color: white;
+}
+
+.footer-text h1 {
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-text h2 {
+    font-size: 1.5rem;
+    font-family: 'Roboto Regular', sans-serif;
+    font-weight: 100;
+}
+
+.contact-icon {
+    display: none;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.footer-icons > img {
+    width: 3rem;
+}
+
+.test {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}
+
 /* tablet styles */
 @media screen and (min-width: 768px) {
 

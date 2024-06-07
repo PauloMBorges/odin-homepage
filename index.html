@@ -126,34 +126,43 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="footer-container">
             <div class="footer-text">
-                <h1>Contact me</h1>
-                <p>Please get in touch </p>
+                <h1 class="white-text">Contact me</h1>
+                <h2 class="white-text">Please get in touch if you think our work could be mutually beneficial!</p>
             </div>
             <div class="footer-address">
-                <p>1234 Random Road</p>
-                <p>Random Town, California 12345</p>
+                <p class="white-text">1234 Random Road</p>
+                <p class="white-text">Random Town, California 12345</p>
             </div>
             <div class="footer-contact">
-                <img src="assets/phone-outline.svg" alt="">
-                <p>555-555-5555</p>
-                <p>snoopy@gmail.com</p>
+                <div class="phone">
+                    <img class="contact-icon"src="assets/phone-outline.svg" alt="">
+                    <p class="white-text">555-555-5555</p>
+                </div>
+                <div class="email">
+                    <img src="assets/email-outline.svg" alt="" class="contact-icon">
+                    <p class="white-text">snoopy.is.real@peanuts.com</p>
+                </div>
             </div>
             <div class="footer-icons">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
             </div>
-            <picture>
-                <source srcset="/assets/snoopy-big.jpg" media="(min-width: 1024px)" />
-                <source srcset="" media="(min-width: 768px)" />
-                <source srcset=""/>
-                <img src="" alt="">
-            </picture>
         </div>
+
+
+        <picture class="footer-picture">
+            <source srcset="/assets/snoopy-end-big.png" media="(min-width: 1024px)" />
+            <source srcset="" media="(min-width: 768px)" />
+            <source srcset="/assets/snoopy-end.png"/>
+            <img class="test" src="/assets/snoopy-end.png" alt="">
+        </picture>
+        
     </footer>
+
 
 </body>
 </html>
