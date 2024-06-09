@@ -5,4 +5,4 @@ This project is part of [The Odin Project's](https://www.theodinproject.com/) cu
 
 ## Website Link
 
-Visit the live website [here](https://github.com/PauloMBorges/odin-homepage).
+Visit the live website [here](https://paulomborges.github.io/odin-homepage/).
